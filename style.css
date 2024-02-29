@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.w-100-height{
+    height: 90vh;
+    width: 100%;
+}
+.carousel-item{
+    min-height: 300px;
+
+}
+.carousel-item .carousel1 a{
+    color: black;
+}
+
+.carousel-caption{
+    text-align: left !important;
+    margin-bottom: 250px;
+    z-index: 2;
+
+}
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 40px;
+  
+}
+.carousel-inner::before{
+  content: "";
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.6);
+  position: absolute;
+width: 100%;
+height: 100%;
+}
