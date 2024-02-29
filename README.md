@@ -9,7 +9,7 @@ A responsive real estate website was created with Bootstrap.
 
 # Screenshots
 
-![](/images/team-1.png)
+![](/images/ss-1.png)
 
 ![](/images/ss-2.jpg)
 
